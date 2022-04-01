@@ -16,3 +16,7 @@ export const StyledLink = styled.a`
     transform: scale(1.1);
   }
 `;
+
+export const Main = styled.main`
+  position: relative;
+`;

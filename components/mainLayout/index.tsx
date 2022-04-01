@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Nav, StyledLink } from "./styled";
+import { Nav, StyledLink, Main } from "./styled";
 
 export const MainLayout: React.FC = ({ children }) => {
   return (
@@ -21,7 +21,7 @@ export const MainLayout: React.FC = ({ children }) => {
           <StyledLink>posts</StyledLink>
         </Link>
       </Nav>
-      <main>{children}</main>
+      <Main>{children}</Main>
     </>
   );
 };
